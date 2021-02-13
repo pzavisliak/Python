@@ -3,9 +3,7 @@ import math
 print("Вычисление длины круга")
 
 def bugsa():
-    if a == "R" or a == "D":
-        return
-    else:
+    if a != "R" or a != "D":
         print("Нужно было ввести R или D, в следуйщий раз читай внимательнее")
         exit()
 
